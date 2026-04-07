@@ -18,8 +18,8 @@ const FooterCTA = () => {
       </div>
 
       <footer className="max-w-5xl mx-auto mt-24 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-        <span className="font-heading font-semibold text-foreground text-lg">NexusIT</span>
-        <span>© 2026 NexusIT. All rights reserved.</span>
+        <span className="font-heading font-semibold text-foreground text-lg">Uyuni Tech</span>
+        <span>© 2026 Uyuni Tech. All rights reserved.</span>
       </footer>
     </section>
   );
