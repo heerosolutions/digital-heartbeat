@@ -1,13 +1,15 @@
-import showcase1 from "@/assets/showcase-1.jpg";
-import showcase2 from "@/assets/showcase-2.jpg";
-import showcase3 from "@/assets/showcase-3.jpg";
-import showcase4 from "@/assets/showcase-4.jpg";
+import showcaseDell from "@/assets/showcase-dell.jpg";
+import showcaseLenovo from "@/assets/showcase-lenovo.jpg";
+import showcaseWazuh from "@/assets/showcase-wazuh.jpg";
+import showcaseVelociraptor from "@/assets/showcase-velociraptor.jpg";
+import showcaseOpensource from "@/assets/showcase-opensource.jpg";
 
 const images = [
-  { src: showcase1, alt: "Network monitoring dashboard" },
-  { src: showcase2, alt: "Cloud migration architecture" },
-  { src: showcase3, alt: "Security operations center" },
-  { src: showcase4, alt: "IT helpdesk system" },
+  { src: showcaseDell, alt: "Dell enterprise server and laptop solutions" },
+  { src: showcaseLenovo, alt: "Lenovo ThinkPad and ThinkStation workstations" },
+  { src: showcaseWazuh, alt: "Wazuh open source SIEM platform" },
+  { src: showcaseVelociraptor, alt: "Velociraptor endpoint detection and response" },
+  { src: showcaseOpensource, alt: "Open source technology ecosystem" },
 ];
 
 const ShowcaseSection = () => {
