@@ -1,15 +1,13 @@
-import logoVelociraptor from "@/assets/logo-velociraptor.png";
 import logoProxmox from "@/assets/logo-proxmox.png";
 import logoWazuh from "@/assets/logo-wazuh.png";
 import logoInvoiceNinja from "@/assets/logo-invoiceninja.png";
-import logoTruenas from "@/assets/logo-truenas.png";
+import logoNetbird from "@/assets/logo-netbird.png";
 
 const logos = [
   { src: logoProxmox, alt: "Proxmox" },
   { src: logoWazuh, alt: "Wazuh" },
-  { src: logoVelociraptor, alt: "Velociraptor" },
   { src: logoInvoiceNinja, alt: "Invoice Ninja" },
-  { src: logoTruenas, alt: "TrueNAS" },
+  { src: logoNetbird, alt: "Netbird" },
 ];
 
 const ShowcaseSection = () => {
@@ -19,7 +17,7 @@ const ShowcaseSection = () => {
         {logos.map((logo, i) => (
           <div
             key={i}
-            className="w-16 h-16 rounded-full bg-white/10 border border-white/10 flex items-center justify-center p-3"
+            className="w-20 h-20 rounded-full bg-white border border-white/20 flex items-center justify-center p-4 shadow-md"
           >
             <img
               src={logo.src}
