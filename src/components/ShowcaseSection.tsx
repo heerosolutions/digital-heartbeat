@@ -14,17 +14,16 @@ const logos = [
 
 const ShowcaseSection = () => {
   return (
-    <section className="py-16 overflow-hidden">
-      <div className="flex gap-10 justify-center items-center animate-scroll-left" style={{ width: "200%" }}>
-        {[...logos, ...logos].map((logo, i) => (
+    <section className="py-12">
+      <div className="flex flex-wrap justify-center items-center gap-8">
+        {logos.map((logo, i) => (
           <div
             key={i}
-            className="flex-shrink-0 w-24 h-24 md:w-32 md:h-32 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 flex items-center justify-center p-5"
+            className="w-16 h-16 rounded-full bg-white/10 border border-white/10 flex items-center justify-center p-3"
           >
             <img
               src={logo.src}
               alt={logo.alt}
-              loading="lazy"
               className="w-full h-full object-contain"
             />
           </div>
